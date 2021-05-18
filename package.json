@@ -11,7 +11,8 @@
     "pub:dev": "node ./deploy.js -e dev",
     "pub:pre": "node ./deploy.js -e pre",
     "pub": "node ./deploy.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -34,6 +35,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-vue": "^7.9.0",
     "eslint-webpack-plugin": "^2.5.4",
+    "husky": "^6.0.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "lint-staged": "^9.5.0",
