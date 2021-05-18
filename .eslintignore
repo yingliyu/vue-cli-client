@@ -1,0 +1,7 @@
+build/*.js
+config/*.js
+src/assets
+public
+dist
+src/styles/iconfont
+node_modules/
